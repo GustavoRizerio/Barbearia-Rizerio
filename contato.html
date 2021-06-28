@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contato-Barbearia Rizerio</title>   
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+
+
+</head>
+    <body>
+    <!--Nav-->
+        <header>
+            <div class="caixa">
+                <h1><img src="fotos/1.png" class="caixa__logo"></h1>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav__lista"><a class="nav__link" href="index.html">Home</a></a></li>
+                        <li class="nav__lista"><a class="nav__link" href="produtos.html">Produtos</a></li> 
+                        <li class="nav__lista"><a class="nav__link" href="contato.html">contato</a></li>  
+                    </ul>   
+                </nav>
+            </div>
+        </header>
+    <!--Fim da Nav-->
+    <!--Formulario-->
+        <main class="caixa__main">
+            <section class="container">
+                <form class="formulario">
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="inputpadrao" required placeholder="João Silva Souza">
+
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="inputpadrao" required placeholder="seuemail@domonio.com">  
+                
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="inputpadrao" required placeholder="(xx)xxxxx-xxxx">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required></textarea>
+
+                <fieldset>
+                    <legend class="teste" id="teste">Como prefere nosso contato</legend>
+                    <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>whatsapp</label>
+                 
+                </fieldset>
+
+                <fieldset>
+                    <legend>qual horario prefere ser atentido</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                
+                <legend>Gostaria de receber nossas novidades por email?</legend>
+                <label><input class="box" type="checkbox" checked></label>
+
+                <input class="enviar" type="submit" value="Enivar-formulario">
+
+            </form>
+        </section>
+    <!--Fim do formulario-->
+
+    <!--Tabela-->
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>horario</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h-20h</td>
+                    </tr>
+               
+                    <tr>
+                        <td>quarta</td>
+                        <td>8h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>sexta</td>
+                        <td>8h-20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    <!--Fim da tabela-->
+
+    <!--Rodape-->
+        <footer class="rodape">
+            <img src="fotos/2.png" alt="Logo da barbearia Rizerio" class="rodape__img">
+            <p class="copyright">	
+            &copy; Copyright Barbearia Rizerio-2021
+        </footer>
+    <!--Fim do rodape-->
+    </body>
+</html>
