@@ -7,7 +7,7 @@ Projeto da barbearia Rizerio, curso da alura
 
 <div align="center">
 
-The **index.html** is a project made with HTML5 and CSS3
+The **Barbearia Rizerio** is a project made with HTML5 and CSS3
 </div> 
 
 ## :rocket: Technology
